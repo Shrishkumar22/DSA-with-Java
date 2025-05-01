@@ -1,10 +1,10 @@
 package Stack;
-public class StackExample{
+public class Stack_Static{
     private int maxsize;
     private int top;
     private int[] stackArr;
 
-    public StackExample(int size){
+    public Stack_Static(int size){
         maxsize = size;
         stackArr = new int[maxsize];
         top = -1;
@@ -40,7 +40,7 @@ public class StackExample{
     }
 
     public static void main(String[] args){
-        StackExample newobj = new StackExample(5);
+        Stack_Static newobj = new Stack_Static(5);
 
         newobj.push(10);
         // newobj.pop();
